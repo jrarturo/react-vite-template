@@ -1,8 +1,6 @@
-import ReactDOM from 'react-dom/client'
-import '././index.css'
+import ReactDOM from 'react-dom/client';
+import '././index.css';
 
-
-const app = <h1>dasda <img src='/logo.svg' /></h1>
-
+const app = <img src='/logo.svg' />;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(app);
